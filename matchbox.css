@@ -20,6 +20,26 @@
   text-align: center;
 
 }
-h1, h1 {
-    font-size: 36px;
+
+#feature { 
+	background: url(images/features/feature_bg.png); 
+	background-size:100% 100%;
+}
+
+.dorry-title {
+	text-align: center;
+	margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.dorry_feature_text_color {
+  color: white;
+}
+
+.dorry_feature_row_margin {
+  margin-bottom: 30px;
+}
+
+.dorry_feature_text_margin {
+  margin-top: 10px;
 }
