@@ -1,6 +1,25 @@
-#banner { 
-	background: url(images/banner_bg.png); 
-	height: 360px;
-	background-size:100%;
 
+.banner { 
+	background: url(images/banner_bg.png); 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#dorry-menu {
+    margin-top: 40px;   
+}
+#bt-joinus {
+    color: #fff;
+    background-color: #5ABFE3;
+    width: 225px;
+    height: 58px;
+    font-size: x-large;
+    padding-top: 10px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+
+}
+h1, h1 {
+    font-size: 36px;
 }
