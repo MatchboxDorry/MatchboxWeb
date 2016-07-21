@@ -4,3 +4,23 @@
 	background-size:100%;
 
 }
+
+#feature { 
+	background: url(images/features/feature_bg.png); 
+	background-size:100% 100%;
+}
+
+.dorry-title {
+	text-align: center;
+	margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.dorry_feature_text_color {
+  color: white;
+}
+
+.dorry_feature_row_margin {
+  margin-bottom: 30px;
+}
+
