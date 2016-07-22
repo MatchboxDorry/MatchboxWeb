@@ -1,9 +1,17 @@
 
 .dorry_brand { 
-	background: url(images/bg_banner.png);
-    background-size: 100% 100%;
-    height:40em;
+    background: url(images/banner_bg.png);
+    background-size: cover;
+   
+
 }
+.banner_bg.png
+{ 
+width:100% ;
+height:auto;
+size:cover;
+}
+
 #dorry-menu {
     margin-top: 40px;   
 }
