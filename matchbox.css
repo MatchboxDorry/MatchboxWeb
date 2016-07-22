@@ -1,8 +1,9 @@
 
 .banner { 
-	background: url(images/banner_bg.png); 
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background: url(images/bg_banner.png); 
+	background-size: 100% 120%;
+	height:40em;
+	
 }
 #dorry-menu {
     margin-top: 40px;   
@@ -10,8 +11,7 @@
 #bt-joinus {
     color: #fff;
     background-color: #5ABFE3;
-    width: 225px;
-    height: 58px;
+    
     font-size: x-large;
     padding-top: 10px;
 }
@@ -19,6 +19,25 @@
   padding: 40px 15px;
   text-align: center;
 
+}
+.title1 {
+	color: white;
+	font-size:50px;
+}
+@media (max-width:800px) {
+	.title1 {
+	color: white;
+	font-size:25px;
+	}
+}
+.lead {
+	color:white;
+	font-size:25px;
+}
+@media (max-width:800px) {
+	.lead {
+	font-size:18px;
+	}
 }
 
 #feature { 
