@@ -62,6 +62,21 @@
   margin-top: 10px;
 }
 
+#construction { 
+	background: url(images/construction/construction_bg.png); 
+	background-size:100% 100%;
+}
+
+.dorry_construction_picture_div {
+  text-align: center;
+  margin-top: 11%;
+  margin-bottom: 11%;
+}
+
+.dorry_construction_picture{
+	width: 80%;
+}
+
 #technology { 
 	background: url(images/technology/technology_bg.png); 
 	background-size:100% 100%;
