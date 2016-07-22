@@ -1,9 +1,8 @@
 
-.banner { 
-	background: url(images/bg_banner.png); 
-	background-size: 100% 120%;
-	height:40em;
-	
+.dorry_brand { 
+	background: url(images/bg_banner.png);
+    background-size: 100% 100%;
+    height:40em;
 }
 #dorry-menu {
     margin-top: 40px;   
@@ -62,3 +61,21 @@
 .dorry_feature_text_margin {
   margin-top: 10px;
 }
+
+#technology { 
+	background: url(images/technology/technology_bg.png); 
+	background-size:100% 100%;
+}
+
+.dorry_technology_picture_div {
+  text-align: center;
+  margin-top: 11%;
+  margin-bottom: 11%;
+}
+
+.dorry_technology_picture{
+	width: 50%;
+}
+
+
+
