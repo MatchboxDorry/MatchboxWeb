@@ -23,7 +23,7 @@
 
 #feature { 
 	background: url(images/features/feature_bg.png); 
-	background-size:100% 100%;
+	background-size:100% 101%;
 }
 
 .dorry-title {
@@ -57,6 +57,21 @@
 
 .dorry_technology_picture{
 	width: 50%;
+}
+
+#address {
+	text-align: center;
+	background-color: #222A5E;
+	color: white;
+}
+
+.dorry_address_picture_div {
+  margin-bottom: 5%;
+	width:12%;
+}
+
+.dorry_copyright_margin {
+  margin-top: 50px;
 }
 
 
