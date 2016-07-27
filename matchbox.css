@@ -2,6 +2,8 @@
 .dorry_brand { 
 	background: url(images/bg_banner.png);
     background-size: 100% 100%;
+	margin-left: 0px;
+	margin-right: 0px;
     height:40em;
 }
 #dorry-menu {
@@ -46,6 +48,7 @@
 #feature { 
 	background: url(images/features/feature_bg.png); 
 	background-size:100% 101%;
+	
 }
 
 .dorry-title {
@@ -69,6 +72,7 @@
 #construction { 
 	background: url(images/construction/construction_bg.png); 
 	background-size:100% 100%;
+	
 }
 
 .dorry_construction_picture_div {
@@ -85,6 +89,7 @@
 	color: white;
 	background: url(images/technology/technology_bg.png); 
 	background-size:100% 100%;
+	
 }
 
 .dorry_technology_picture_div {
