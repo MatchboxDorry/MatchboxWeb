@@ -1,25 +1,19 @@
 
 .dorry_brand { 
-    background: url(images/bg_banner.png);
-    background-size: cover;
+	background: url(images/bg_banner.png);
+    background-size: 100% 100%;
     height:40em;
-   
-
 }
 #dorry-menu {
     margin-top: 40px;   
 }
-.groupimg {
-    margin-left:20%;
-}
 #bt-joinus {
     color: #fff;
-    background-color: #5ABFE3;    
+    background-color: #5ABFE3;
+    
     font-size: x-large;
-    padding-top: 5px;
-    margin-left:70%;
+    padding-top: 10px;
 }
-
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -45,15 +39,9 @@
 	}
 }
 
-#constructure {
-	background: url(images/feature_bg.png); 
-	background-size:cover;
-}
-
-
 #feature { 
 	background: url(images/features/feature_bg.png); 
-	background-size:100% 100%;
+	background-size:100% 101%;
 }
 
 .dorry-title {
@@ -74,6 +62,21 @@
   margin-top: 10px;
 }
 
+#construction { 
+	background: url(images/construction/construction_bg.png); 
+	background-size:100% 100%;
+}
+
+.dorry_construction_picture_div {
+  text-align: center;
+  margin-top: 11%;
+  margin-bottom: 11%;
+}
+
+.dorry_construction_picture{
+	width: 80%;
+}
+
 #technology { 
 	background: url(images/technology/technology_bg.png); 
 	background-size:100% 100%;
@@ -87,6 +90,21 @@
 
 .dorry_technology_picture{
 	width: 50%;
+}
+
+#address {
+	text-align: center;
+	background-color: #222A5E;
+	color: white;
+}
+
+.dorry_address_picture_div {
+  margin-bottom: 5%;
+	width:12%;
+}
+
+.dorry_copyright_margin {
+  margin-top: 50px;
 }
 
 
