@@ -9,7 +9,8 @@
 #nav-background
 {
 	background: url(images/top.png);
-	height:85px;
+	height:7%;
+	box-shadow: -10px 10px 21px rgba(36, 46, 81, 0.3);
 }
 
 .log_img {
@@ -297,6 +298,9 @@ a:-webkit-any-link
 	}
 }
 
+.img_top {
+	margin-top:15%;
+}
 @media (max-width:1206px) {
 	.img_top {
 	margin-top: -15%;
@@ -337,5 +341,8 @@ a:-webkit-any-link
   margin-bottom: 8%;
 }
 
+.job_color {
+	color:white;
+}
 
 
