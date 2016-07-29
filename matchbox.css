@@ -114,7 +114,6 @@ a:-webkit-any-link
 	}
 }
 
-
 .dorry_feature_text_color {
   color: white;
 }
@@ -245,11 +244,10 @@ a:-webkit-any-link
 }
 @media (max-width:1206px) {
 	.SSO_position {
-	margin-left:-4%;
-	width:98%;
+	    margin-left:-4%;
+	    width:98%;
+    }
 }
-}
-
 .Update_position {
 	width:79%;
   margin-left: -4%;
