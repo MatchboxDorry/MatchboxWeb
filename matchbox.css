@@ -6,20 +6,41 @@
 	  margin-right: 0px;
     height:48em;
 }
+#nav-background
+{
+	background: url(images/top.png);
+	height:85px;
+}
+
+.log_img {
+	margin-left: 13%;
+}
+
 #dorry-menu {
     margin-top: 40px;   
 }
 .groupimg {
     margin-left:20%;
 }
-#bt-joinus {
-    color: #fff;
-    background-color: #5ABFE3;
-    
-    font-size: x-large;
-    padding-top: 5px;
-    margin-left:70%;
+a:-webkit-any-link
+{
+    text-decoration: none;
 }
+.joinustext
+{
+	color: #fff;
+    font-size: 163%;
+    margin-left: 68%;
+}
+@media (max-width:1206px) {
+	.joinustext
+	{
+		color: #fff;
+		font-size: 163%;
+		margin-left: 30%;
+	}
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -92,7 +113,6 @@
     font-size: 210%;
 	}
 }
-
 
 .dorry_feature_text_color {
   color: white;
@@ -225,11 +245,10 @@
 }
 @media (max-width:1206px) {
 	.SSO_position {
-	margin-left:-4%;
-	width:98%;
+	    margin-left:-4%;
+	    width:98%;
+    }
 }
-}
-
 .Update_position {
 	width:97%;
  
