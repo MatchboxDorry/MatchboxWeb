@@ -1,0 +1,303 @@
+
+.dorry_brand { 
+	background: url(images/bg_banner.png);
+    background-size: 100% 100%;
+	  margin-left: 0px;
+	  margin-right: 0px;
+    height:40em;
+}
+#nav-background
+{
+	background: url(images/top.png);
+	height:85px;
+}
+
+.log_img {
+	margin-left: 13%;
+}
+
+#dorry-menu {
+    margin-top: 40px;   
+}
+.groupimg {
+    margin-left:20%;
+}
+a:-webkit-any-link
+{
+    text-decoration: none;
+}
+.joinustext
+{
+	color: #fff;
+    font-size: 163%;
+    margin-left: 68%;
+}
+@media (max-width:1206px) {
+	.joinustext
+	{
+		color: #fff;
+		font-size: 163%;
+		margin-left: 30%;
+	}
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+
+}
+.title1 {
+	color: white;
+	font-size:50px;
+}
+@media (max-width:1206px) {
+	.title1 {
+	color: white;
+	font-size:25px;
+	}
+}
+.lead {
+	color:white;
+	font-size:25px;
+}
+@media (max-width:1206px) {
+	.lead {
+	font-size:18px;
+	}
+}
+
+#Second_Part { 
+	background: url(images/features/feature_bg.png); 
+	background-size:100% 101%;
+}
+
+.Constructure_title {
+		text-align: center;
+    margin-bottom: -4%;
+    margin-top: 18%;
+    font-weight: bold;
+    font-size: 350%;
+}
+
+.dorry-title {
+	  text-align: center;
+    margin-bottom: 5%;
+    margin-top: 47px;
+    font-weight: bold;
+    font-size: 350%;
+}
+@media (max-width:1206px) {
+	.dorry-title {
+	  text-align: center;
+    margin-bottom: 5%;
+    margin-top: 47px;
+    font-weight: bold;
+    font-size: 210%;
+	}
+}
+
+.dorry-title-Feature {
+	  text-align: center;
+    margin-bottom: 5%;
+    margin-top: 47px;
+    font-weight: bold;
+    font-size: 350%;
+	  margin-left: -14%;
+}
+@media (max-width:1206px) {
+	.dorry-title-Feature {
+	  text-align: center;
+    margin-bottom: 5%;
+    margin-top: 47px;
+    font-weight: bold;
+    font-size: 210%;
+	}
+}
+
+
+.dorry_feature_text_color {
+  color: white;
+}
+
+.feature_top {
+	  margin-top: -4%;
+    width: 77%;
+    margin-left: 16%;
+}
+
+@media (max-width: 1206px) {
+.Fectures_features_position {
+    margin-right: 0%;
+    margin-left: -81%;
+    margin-bottom: 2%;
+	}
+}
+
+.dorry_feature_row_margin {
+  margin-bottom: 30px;
+}
+
+.dorry_feature_text_margin {
+  margin-top: 10px;
+  margin-bottom:4%;
+}
+
+#construction { 
+	color: white;
+  margin-left: 0px;
+	margin-right: 0px;
+	background: url(images/construction/construction_bg.png); 
+	background-size:100% 100%;
+	
+}
+
+.dorry_construction_picture_div {
+  text-align: center;
+  margin-top: 11%;
+  margin-bottom: 11%;
+}
+
+.dorry_construction_picture{
+	width: 80%;
+}
+
+#technology { 
+	color: white;
+  margin-left: 0px;
+	margin-right: 0px;
+	background: url(images/technology/technology_bg.png); 
+	background-size:100% 100%;
+	
+}
+
+.dorry_technology_picture_div {
+  text-align: center;
+  margin-top: 11%;
+  margin-bottom: 11%;
+}
+
+.dorry_technology_picture{
+	width: 100%;
+	margin-top: 20%;
+	margin-left:18%;
+}
+@media (max-width:1206px) {
+	.dorry_technology_picture {
+	  margin-top: 46%;
+    margin-bottom: 38%;
+    margin-left: 3%;
+    width: 218%;
+	}
+}
+
+.functionality_left_margin {
+		margin-left: 9%;
+    width: 41%;
+}
+@media (max-width:1206px) {
+	.functionality_left_margin {
+		margin-left: -1%;
+    width: 88%;
+	}
+}
+
+.dorry-tech-col{
+	text-align: left;
+	padding-left:12px;
+	margin-right:-10px;
+}
+
+.technology_picture_div {
+	margin-top:-5%;
+}
+
+#address {
+	text-align: center;
+	color: white;
+	background: url(images/address/contact_bg.png); 
+	background-size:100% 100%;
+}
+
+@media (max-width:1206px) {
+.third_heading_font {
+	  margin-top: 0;
+    margin-bottom: 5px;
+    font-size:110%;
+		font-weight:bold;
+	}
+}
+
+.Functionalities_features_position {
+	margin-right:0px;
+	margin-left:53px;
+  margin-bottom:2%;
+}
+@media (max-width:1206px) {
+	.Functionalities_features_position {
+	margin-right:-5%;
+	margin-left:-4%;
+  margin-bottom:2%;
+}
+}
+.SSO_position {
+	margin-left:-4%;
+	width:79%;
+}
+@media (max-width:1206px) {
+	.SSO_position {
+	margin-left:-4%;
+	width:98%;
+}
+}
+
+.Update_position {
+	width:79%;
+  margin-left: -4%;
+}
+@media (max-width:1206px) {
+	.Update_position {
+		width:98%;
+		margin-left: -4%;
+	}
+}
+
+@media (max-width:1206px) {
+.functionality_bottom {
+		margin-bottom: 5%;
+    margin-left: 7%;
+ }
+}
+
+.SSO_left {
+	margin-left:10%;
+} 
+
+.dorry_address_picture_div {
+  margin-bottom: 5%;
+	width:12%;
+}
+.dorry_copyright_margin {
+  margin-top: 50px;
+}
+
+@media (max-width:1206px) {
+	.content_font {
+	font-size:90%;
+	}
+}
+
+@media (max-width:1206px) {
+	.img_top {
+	margin-top: -15%;
+	}
+}
+
+@media (max-width:1206px) {
+	.img_size {
+		width: 0;
+	}
+}
+
+
+
+
