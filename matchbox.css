@@ -38,16 +38,18 @@ a:-webkit-any-link
 }
 .joinustext
 {
-	color: #fff;
+	  color: #fff;
     font-size: 163%;
-    margin-left: 68%;
+    margin-left: 77%;
+    top: 11px;
+    position: relative;
 }
 @media (max-width:540px) {
 	.joinustext
 	{
 		color: #fff;
-		font-size: 163%;
-		margin-left: 30%;
+    font-size: 140%;
+    margin-left: 47%;
 	}
 }
 
