@@ -4,7 +4,7 @@
 	background-size: 100% 100%;
 	height:184em;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinusbg-row{
 		background-image: url();
 		background-size: 100% 100%;
@@ -22,7 +22,7 @@
     margin-top: 22%;
     margin-right: 57%;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.dorry_joinus_picture {
 		width: 92%;
 		margin-top: 4%;
@@ -34,7 +34,7 @@
     margin-top: 22%;
     margin-left: 24%;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinustitle {
 	   text-align: left;
 		margin-top: -16%;
@@ -46,7 +46,7 @@
 	margin-top: 13%;
     width: 45%;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinusquestion {
 		margin-top: -1%;
 		width: 100%;
@@ -77,7 +77,7 @@
 	font-size: 408%;
 }
 
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.FullStackset {
 		    color: #232F53;
 			font-weight: bolder;
@@ -93,14 +93,14 @@
    
 	font-size: 136%;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinus_ul_set{
 		margin-top: 14%;
 		margin-bottom: 10px;
 	}
 }
 
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.FullStackcontentset {
 		color: #232F53;
 		margin-left: -21%;
@@ -124,7 +124,7 @@
     width: 25%;
     margin-left: 57%;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joiunus_contact {
 		padding-top: 8.3%;
 		margin-left: 1%;
@@ -138,7 +138,7 @@
 	color: #fff;
 	font-size: 408%;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.contactustext {
 		margin-left: 29%;
 		color: #fff;
@@ -153,7 +153,7 @@
     margin-left: 7%;
 	width: 100%;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinus_font {
 		color: #fff;
 		margin-top: 9%;
@@ -181,7 +181,7 @@
     font-size: 152%;
 }
 
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinus_footer_set {
 		color: #fff;
 		margin-left: 0%;
@@ -197,7 +197,7 @@
 	margin-right: 0px;
     margin-left: 0px;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 .joinus_row_bottom
 	{
 		margin-right: 0px;
@@ -211,7 +211,7 @@
     margin-left: 0px;
 	background-color: #0DA5D8;
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 .joinus_row
 	{
 		margin-right: 0px;
@@ -219,24 +219,24 @@
 		height: 54em;
 	}
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.contactus_img{
 		width: 93%;
     	margin-top: 26%;
 	}
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinus_img_div{
 		padding-right: 10px;
     	width: 20%;
 	}
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinus_contactus_bgset{
 		background-color: #232F53;
 	}
 }
-@media (max-width:768px) {
+@media (max-width:1380px) {
 	.joinus_footer_p{
 		margin-bottom: 0;
 	}
