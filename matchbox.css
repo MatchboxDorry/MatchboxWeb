@@ -197,27 +197,12 @@ a:-webkit-any-link
   margin-top: 5%;
   margin-left: 17%;
 }
-@media(min-width:1200px) {
+@media (max-width:540px) {
 	.dorry_technology_picture {
-	  width: 100%;
-    margin-top: 5%;
-    margin-left: 17%;
-	}
-}
-@media (max-width:1199px) {
-	.dorry_technology_picture {
-	  margin-top: 32%;
-    margin-left: 13%;
-    width: 88%;
-	}
-}
-
-@media (max-width:768px) {
-	.dorry_technology_picture {
-  	margin-top: 23%;
-    margin-bottom: 25%;
-    margin-left: 18%;
-    width: 163%;
+	  margin-top: 46%;
+    margin-bottom: 38%;
+    margin-left: 3%;
+    width: 218%;
 	}
 }
 
