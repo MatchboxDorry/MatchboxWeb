@@ -32,10 +32,7 @@
 .groupimg {
     margin-left:20%;
 }
-a:-webkit-any-link
-{
-    text-decoration: none;
-}
+
 .joinustext
 {
 	  color: #fff;
@@ -357,5 +354,12 @@ a:-webkit-any-link
 .job_color {
 	color:white;
 }
+
+
+a:link {color: #FFF}		
+a:hover {color: #FFF;}	
+
+
+
 
 
