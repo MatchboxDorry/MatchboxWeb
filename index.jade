@@ -3,8 +3,8 @@ html(lang='en')
   head
     title dorry.io
     link(rel='SHORTCUT ICON', href='images/favicon.png')
-    link(rel='stylesheet', type='text/css', href='bootstrap.min.css')
-    link(rel='stylesheet', type='text/css', href='matchbox.css')
+    link(rel='stylesheet', type='text/css', href='./dorrycss/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='./dorrycss/matchbox.css')
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1 miniumum-scale=1.0,maximum-scale=1.0,user-scalable=no')
@@ -12,209 +12,26 @@ html(lang='en')
     meta(name='author', content='')
   body
     // nav-bar part
-    #nav-background.navbar.navbar-fixed-top.sticky
-      nav.navbar(role='banner')
-        div
-          img.log_img(src='images/Group.png')
-          a.joinustext(href='joinus.html') Join us
+    include ./indexpagejade/navbar.jade
+    
     // dorry brand part
-    .dorry_brand
-      .navbar
-        .starter-template
-          br
-          br
-          br
-          br
-          br
-          h.title1 The IT platform customized for micro enterprises
-          p.lead
-            | Dorry is a professional enterprise platform, running on ARM and continually
-            br
-            | delivering secure enterprise applications and services, which is based on the
-            br
-            |  leading technology  of docker virtualization.
+    include ./indexpagejade/dorrybrand.jade
+
     // dorry feature part
-    #Second_Part
-      // dorry construction picture part
-      #construction.container
-        .dorry_feature_text_color
-          div
-            h1.Constructure_title The Constructure of Dorry
-          .dorry_construction_picture_div
-            img.dorry_construction_picture(src='images/construction/construction_inner.png')
-      // features' content part
-      .container.dorry_feature_text_color.feature_top
-        div
-          h1.dorry-title-Feature Features
-        // first row
-        // Simplicity col
-        .col-md-6.dorry_feature_row_margin.functionality_bottom
-          .media.Update_position1
-            // Security image
-            .media-left
-              img.media-object.img_size(src='images/features/Security.png')
-            // Security content
-            .media-body
-              h3.media-heading.dorry_feature_text_margin Security
-              p.content_font Dorry Market provides application authentication and security validation.
-        // Security col
-        .col-md-6.dorry_feature_row_margin.functionality_bottom
-          .media.Update_position1
-            // Lightweight image
-            .media-left
-              img.media-object.img_size(src='images/features/Lightweight.png')
-            // Lightweight content
-            .media-body
-              h3.media-heading.dorry_feature_text_margin Lightweight
-              p.content_font
-                | Dorry OS entitles the application with the capabilities of instant bootstrap, less RAM and disk usage.
-        // end first row
-        // second row
-        // Simplicity col
-        .col-md-6.dorry_feature_row_margin.functionality_bottom
-          .media.Update_position1
-            // Simplicity image
-            .media-left
-              img.media-object.img_size(src='images/features/Simplicity.png')
-            // Simplicity content
-            .media-body
-              h3.media-heading.dorry_feature_text_margin Simplicity
-              p.content_font
-                | Running your enterprise services on Dorry OS as on your smartphone only with two neat steps “Install->Start”.
-        // Integration and Management col
-        .col-md-6.dorry_feature_row_margin.functionality_bottom
-          .media.Update_position1
-            // Integration and Management image
-            .media-left
-              img.media-object.img_size(src='images/features/Integration.png')
-            // Integration and Management content
-            .media-body
-              h3.media-heading.dorry_feature_text_margin Integration and Management
-              p.content_font
-                | Dorry OS integrates enterprise applications in one centralized platform with management capability.
-        // end second row
-        // third row
-        div
-          // Local deployment col
-          .col-md-6.dorry_feature_row_margin.functionality_bottom
-            .media.Update_position1.feature_bottom
-              // Local deployment image
-              .media-left
-                img.media-object.img_size(src='images/features/Local_deployment.png')
-              // Local deployment Content
-              .media-body
-                h3.media-heading.dorry_feature_text_margin Local deployment
-                p.content_font
-                  | Dorry OS is deployed on Raspberry Pi by default in the local enterprise environment, so are the enterprise services and data.
-          // end third row
-      // dorry technology part
-      #technology.row
-        .dorry_technology_picture_div
-          div
-            h1.dorry-title Functionalities
-          // functionalities picture
-          .col-xs-6.col-lg-4
-            img.dorry_technology_picture(src='images/technology/technology_inner.png')
-          // functionalities content
-          .col-xs-12.col-sm-6.col-lg-8.dorry-tech-col
-            // first row
-            .row.Functionalities_features_position
-              // Update & Upgrade col
-              .col-md-6.functionality_bottom
-                .media.Update_position
-                  // Update & Upgrade
-                  .media-left
-                    img.media-object.img_top(src='images/technology/update.png')
-                  // Update & Upgrade content
-                  .media-body
-                    h3.third_heading_font Update & Upgrade
-                    p.content_font DorryOS and enterprise applications can be updated and upgraded on the fly.
-              // SSO col
-              .col-md-6.functionality_bottom
-                .media.SSO_position
-                  // SSO image
-                  .media-left
-                    img.media-object.img_top(src='images/technology/SSO.png')
-                  // SSO content
-                  .media-body
-                    h3.third_heading_font SSO
-                    p.content_font DorryOS provides Single-Sign-On to access to enterprise services.
-            // end first row
-            // second row
-            .row.Functionalities_features_position
-              // Backup and Restore col
-              .col-md-6.functionality_bottom
-                .media.Update_position
-                  // Backup and Restore  image
-                  .media-left
-                    img.media-object.img_top(src='images/technology/backup.png')
-                  // Backup and Restore  content
-                  .media-body
-                    h3.third_heading_font Backup & Restore
-                    p.content_font DorryOS provides the service to backup and restore application data.
-              // Micro Service Communication col
-              .col-md-6.functionality_bottom
-                .media.SSO_position
-                  // Micro Service Communication image
-                  .media-left
-                    img.media-object.img_top(src='images/technology/micro.png')
-                  // Micro Service Communication content
-                  .media-body
-                    h3.third_heading_font Micro Service Communication
-                    p.content_font
-                      | Each executing enterprise application is considered as micro service. DorryOS handles the service communication.
-            // end second row
-            // third row
-            .row.Functionalities_features_position
-              // Management col
-              .col-md-6.functionality_bottom
-                .media.Update_position
-                  // Management image
-                  .media-left
-                    img.media-object.img_top(src='images/technology/management.png')
-                  // Management content
-                  .media-body
-                    h3.third_heading_font Management
-                    p.content_font
-                      | DorryOS provides user friendly interface to manipulate enterprise services on the fly.
-              // feedback col
-              .col-md-6.functionality_bottom
-                .media.SSO_position
-                  // feedback image
-                  .media-left
-                    img.media-object.img_top(src='images/technology/feedback.png')
-                  // feedback content
-                  .media-body
-                    h3.third_heading_font Feedback
-                    p.content_font DorryOS reports application execution errors and exceptions.
-            // end third row
-          // end functionalities content
-      // Keep in touch part
-      #address
-        .container
-          .dorry-address-title
-            h1.dorry-title Contact us
-          .row.dorry_address_bottom
-            // company Email
-            .col-md-4.contact_margin
-              img.dorry_address_picture_div(src='images/address/contact.png')
-              h3.media-heading E-mail
-              p job@dorry.io
-            // company address
-            .col-md-4.contact_margin
-              img.dorry_address_picture_div(src='images/address/location.png')
-              h3.media-heading Our Location
-              p Room C1, 6th Floor, Huangpu Bld Huangpu Rd 2 
-              p Xuanwu, Nanjing, China 210016 
-            // company JOB
-            #joinus.col-md-4.contact_margin
-              img.dorry_address_picture_div(src='images/address/job.png')
-              a.job_color(href='joinus.html')
-                h3.media-heading Job
-                p Join us
-      // copyright part
-      .dorry_copyright
-        .container
-          .dorry_copyright_margin
-            p Copyright © 2016 Matchbox (火柴盒)
+
+    // dorry construction picture part
+    include ./indexpagejade/construction.jade
+
+    // features' content part
+    include ./indexpagejade/features.jade
+
+    // dorry technology part
+    include ./indexpagejade/Functionalities.jade
+
+    // Keep in touch part
+    include ./indexpagejade/keepintouch.jade
+
+    // copyright part
+    include ./indexpagejade/copyright.jade
+     
 
