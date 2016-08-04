@@ -1,6 +1,6 @@
 
 .joinusbg-row{
-	background-image: url(images/recruitment/5.png);
+	background-image: url(../images/recruitment/5.png);
 	background-size: 100% 100%;
 	height:183em;
 }
@@ -123,7 +123,7 @@
 		margin-top: -1%;
 		width: 100%;
 		background-color: white;
-		font-size: 64%;
+		font-size: 100%;
 	}
 }
 .joinusquestiontext
@@ -421,7 +421,7 @@
     	margin-top: -44%;
 		margin-right: 0px;
 		margin-left: 0px;
-		height: 77em;
+		height: 68em;
 		background-color: #0DA5D8;
 	}
 }

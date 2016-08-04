@@ -1,6 +1,6 @@
 
 .dorry_brand { 
-	background: url(images/bg_banner.png);
+	background: url(../images/bg_banner.png);
     background-size: 100% 100%;
 	  margin-left: 0px;
 	  margin-right: 0px;
@@ -8,7 +8,7 @@
 }
 #nav-background
 {
-	background: url(images/top.png);
+	background: url(../images/top.png);
   height: 70px;
 	box-shadow: -10px 10px 21px rgba(36, 46, 81, 0.3);
 }
@@ -77,7 +77,7 @@
 }
 
 #Second_Part { 
-	background: url(images/features/feature_bg.png); 
+	background: url(../images/features/feature_bg.png); 
 	background-size:100% 101%;
 }
 
@@ -178,7 +178,7 @@
 	color: white;
   margin-left: 0px;
 	margin-right: 0px;
-	background: url(images/technology/technology_bg.png); 
+	background: url(../images/technology/technology_bg.png); 
 	background-size:100% 100%;
 	
 }
@@ -279,8 +279,8 @@
 }
 @media (max-width:540px) {
 	.Update_position1 {
-		width: 182%;
-    margin-left: -47%;
+		width: 155%;
+    margin-left: -31%;
 	}
 }
 
