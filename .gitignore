@@ -1,7 +1,2 @@
 /node_modules/*
-/assets/*
-/src/*
-Gruntfile.js
-package.json
-!/product/*
 
