@@ -8,3 +8,4 @@ git mv product/* ./
 rm -r product node_modules
 # start http server
 python -m SimpleHTTPServer
+git checkout gh-pages
