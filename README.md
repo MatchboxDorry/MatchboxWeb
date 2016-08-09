@@ -40,7 +40,7 @@ you can see the webside you develop and the changes you modified.
 ### 7. run the cc.sh
 After you visit the webside and ensure no problem, you can run 
 ```
- ./cc.sh 
+ ./cctest.sh 
 ```
 to add and commit the changes to git and remote and checkout to the gh-pages branch.
 
