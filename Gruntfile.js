@@ -2,6 +2,18 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		
+
+
+	  	mkdir: {
+			all: {
+		  	options: {
+				mode: 0777,
+				create: ['product']
+		  	},
+			},
+	  	},
+
+
 		copy: {
   			main: {
     			expand: true,
@@ -23,9 +35,10 @@ module.exports = function(grunt) {
 
 	});
 
+	grunt.loadNpmTasks('grunt-mkdir');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-jade');
 	
-	grunt.registerTask('default', ['copy', 'jade']);
+	grunt.registerTask('default', ['mkdir','copy', 'jade']);
 };
 
