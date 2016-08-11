@@ -48,18 +48,26 @@ Run the test.sh, you will get html pages and assets ,then you can open the chrom
 ```
 you can see the webside you develop and the changes you modified. If there is no problem, you need to commit.
 ## gh-pages branch
-
-### 8. checkout the modified product to the gh-pages and push to the romote
+### 8. commit the modified product to the test
+```
+ git add <the thing changed> 
+ git commit -m "<description of changes>"
+```
+change the branch from test to the gh-pages
+### 9. checkout the modified product to the gh-pages and push to the romote
 ```
  git checkout gh-pages
  git checkout test assets *.html 
 
 ```
 change the branch from test to the gh-pages
-### 9. commit changes to origin gh-pages
+### 10. commit changes to origin gh-pages
 ```
  git add <the things you modified>
  git commit -m "<description of your changes>"
 ```
 After you ensure the changes, you need to push to the remote.
-
+### 11. push changes to origin gh-pages
+```
+git push origin gh-pages
+```
