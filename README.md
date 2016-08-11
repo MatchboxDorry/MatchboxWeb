@@ -48,8 +48,8 @@ Run the test.sh, you will get html pages and assets ,then you can open the chrom
 ```
 ### 8. commit the modified product to the test branch
 ```
- git add <the thing changed> 
- git commit -m "<description of changes>"
+ git add assets *.html
+ git commit -m "<add assets *.html>"
 ```
 
 ## gh-pages branch
