@@ -72,6 +72,7 @@ git push origin gh-pages
 ```
  git checkout test 
  git rm -r assets *.html
+ git commit -m "delete the assets *.html"
 ```
 ### 13. push to the origin from test
 ```
@@ -81,6 +82,7 @@ git push origin gh-pages
 ```
  git checkout develop 
  git rm -r product
+ git commit -m "delete the product folder"
 ```
 ### 15. push to the origin develop branch
 ```
