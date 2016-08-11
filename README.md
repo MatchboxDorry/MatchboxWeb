@@ -6,7 +6,7 @@ DorryWeb is a website of Matchbox company.
 ## develop branch
 ### 1. download Matchboxweb project
  ```
- git clone git@github.com:MatchboxDorry/MatchboxWeb.git
+ git clone -b develop git@github.com:MatchboxDorry/MatchboxWeb.git
  ```
 ### 2. Entering the folder of MatchboxWeb
  ```
@@ -21,14 +21,20 @@ DorryWeb is a website of Matchbox company.
  grunt 
 ```
 After you input the grunt ,there will be a folder named product, including index.html, joinus.html and assets folder. If you do development, you can modify the jade files in the src folder, then you can run the gruntfile.js, this file will compile the jade files int the src folder to create a product folder including the html pages and assets.
-### 5. run the cc.sh
-```
- ./cc.sh 
-```
-After you modify the source code , you can run the cc.sh file to add and commit the changes to git and to the remote .At the same time , you will automatically checkout to the test branch.
+
+### 5. commit the product
+After you modify the changes, you need to commit the product to the develop branch.
+
 
 ## test branch
-### 6. run the test.sh
+
+
+### 6. Checkout test branch from origin
+```
+ git checkout -b test origin/test 
+```
+checkout the test branch from the remote
+### 7. run the test.sh
 ```
  ./test.sh 
 ```
@@ -36,19 +42,14 @@ Run the test.sh, you will get html pages and assets ,then you can open the chrom
 ```
  localhost:8000 
 ```
-you can see the webside you develop and the changes you modified.
-### 7. run the cc.sh
-After you visit the webside and ensure no problem, you can run 
-```
- ./cctest.sh 
-```
-to add and commit the changes to git and remote and checkout to the gh-pages branch.
-
+you can see the webside you develop and the changes you modified. If there is no problem, you need to commit.
 ## gh-pages branch
-### 8. commit changes to origin gh-pages
-In the gh-pages, there is a push.sh, you can run   
+
+### 8. checkout to the gh-pages
 ```
- ./push.sh 
+ git checkout gh-pages 
 ```
-to add and commit the changes to origin gh-pages branch.
+change the branch from test to the gh-pages
+### 9. commit changes to origin gh-pages
+After you ensure the changes, you need to push to the remote.
 
