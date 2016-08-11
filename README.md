@@ -47,14 +47,19 @@ Run the test.sh, you will get html pages and assets ,then you can open the chrom
  localhost:8000 
 ```
 you can see the webside you develop and the changes you modified. If there is no problem, you need to commit.
-## gh-pages branch
 ### 8. commit the modified product to the test
 ```
  git add <the thing changed> 
  git commit -m "<description of changes>"
 ```
-change the branch from test to the gh-pages
-### 9. checkout the modified product to the gh-pages and push to the romote
+### 9. After you test the website, and there is no problem, you need to checkout to the develop branch, and delete the product
+```
+ git checkout develop 
+ git rm 
+```
+## gh-pages branch
+
+### 9. change the branch from test to the gh-pages, checkout the modified product to the gh-pages and push to the romote
 ```
  git checkout gh-pages
  git checkout test assets *.html 
