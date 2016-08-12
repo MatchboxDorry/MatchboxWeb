@@ -1,10 +1,56 @@
 
 .dorry_brand { 
-	background: url(../images/bg_banner.png);
+	background: -webkit-linear-gradient(left, #74E8FF , #009DD5);
     background-size: 100% 100%;
 	  margin-left: 0px;
 	  margin-right: 0px;
     height:48em;
+}
+.wave_div {
+	background: url(../images/bolang.png);
+	margin-top: 6.3%;
+    width: 100%;
+	height:146px;
+}
+@media(max-width:1800px) {
+	.wave_div {
+	background: url(../images/bolang.png);
+	margin-top: 11.3%;
+    width: 100%;
+	height:146px;
+	}
+}
+@media(max-width:880px) {
+	.wave_div {
+	background: url(../images/bolang.png);
+	margin-top: 3.3%;
+    width: 100%;
+	height:146px;
+	}
+}
+@media(max-width:650px) {
+	.wave_div {
+	background: url(../images/bolang.png);
+	margin-top: -14.7%;
+    width: 100%;
+	height:146px;
+	}
+}
+@media(max-width:540px) {
+	.wave_div {
+	background: url(../images/bolang.png);
+	margin-top: 33.3%;
+    width: 100%;
+	height:146px;
+	}
+}
+@media(max-width:320px) {
+	.wave_div {
+	background: url(../images/bolang.png);
+	margin-top: 0.3%;
+    width: 100%;
+	height:146px;
+	}
 }
 #nav-background
 {
