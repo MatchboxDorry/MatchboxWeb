@@ -1,17 +1,23 @@
 
 .joinusbg-row{
-	background-image: url(../images/recruitment/5.png);
-	background-size: 100% 100%;
-	height:183em;
-}
-@media (max-width:650px) {
-	.joinusbg-row{
-		background-image: url();
-		background-size: 100% 100%;
-		height:131em;
-	}
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#74E8FF), to(#009DD5));
 }
 
+.joinus_rec {
+	background-color: white;
+    border-radius: 5%;
+    width: 60%;
+    margin-left: 20%;
+}
+@media (max-width:650px) {
+	.joinus_rec {
+        background-color: white;
+		border-radius: 5%;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: -2%;
+	}
+}
 .dorry_joinus_picture_div {
   text-align: center;
   margin-top: 11%;
@@ -50,19 +56,19 @@
 }
 @media (max-width:650px) {
 	.dorry_joinus_picture {
-		width: 92%;
-		margin-top: 4%;
-		margin-left: 8%;
+		width: 60%;
+		margin-top: 3%;
+		margin-left: 12%;
 	}
 }
 @media (max-width:500px) {
 	.dorry_joinus_picture {
 		width: 92%;
-		margin-top: 25%;
+		margin-top: 10%;
 		margin-left: 8%;
 	}
 }
-@media (max-width:375px) {
+@media (max-width:385px) {
 	.dorry_joinus_picture {
 	        width: 87%;
 			margin-top: 2%;
@@ -89,34 +95,22 @@
     	margin-left: 5%;
 	}
 }
+.joinus_wave {
+	background: url(../images/bolang.png);
+	height: 147px;
+    margin-bottom: -6.1%;
+}
+@media (max-width:650px) {
+	.joinus_wave {
+		background: url();
+	}
+}
 .joinusquestion
 {
 	margin-top: 13%;
-    width: 45%;
-}
-@media (max-width:1160px) {
-	.joinusquestion {
-		margin-top: 17%;
-    	width: 45%;
-	}
-}
-@media (max-width:1050px) {
-	.joinusquestion {
-		margin-top: 15%;
-    	width: 45%;
-	}
-}
-@media (max-width:883px) {
-	.joinusquestion {
-		margin-top: 21%;
-    	width: 56%;
-	}
-}
-@media (max-width:667px) {
-	.joinusquestion {
-		margin-top: 21%;
-    	width: 58%;
-	}
+    width: 83%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 @media (max-width:650px) {
 	.joinusquestion {
@@ -232,8 +226,8 @@
 }
 @media (max-width:650px) {
 	.joinus_ul_set{
-		margin-top: 14%;
-		margin-bottom: 10px;
+		margin-top: 6%;
+		margin-bottom: 14%;
 	}
 }
 .joinus_Update_position{
@@ -543,7 +537,7 @@
 		color: white;
 		background-color: #232F53;
 		background-size: 100% 100%;
-		margin-top: 15%;
+		margin-top: 5.9%;
 	}
 }
 @media (max-width:746px) {
@@ -552,7 +546,34 @@
 		color: white;
 		background-color: #232F53;
 		background-size: 100% 100%;
-		margin-top: 21%;
+		margin-top: -20%;
+	}
+}
+@media (max-width:650px) {
+	#joinus_address {
+		text-align: center;
+		color: white;
+		background-color: #232F53;
+		background-size: 100% 100%;
+		margin-top: -30%;
+	}
+}
+@media (max-width:505px) {
+	#joinus_address {
+		text-align: center;
+		color: white;
+		background-color: #232F53;
+		background-size: 100% 100%;
+		margin-top: -35%;
+	}
+}
+@media (max-width:435px) {
+	#joinus_address {
+		text-align: center;
+		color: white;
+		background-color: #232F53;
+		background-size: 100% 100%;
+		margin-top: -47%;
 	}
 }
 @media (max-width:992px) {
