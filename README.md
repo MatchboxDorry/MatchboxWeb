@@ -86,5 +86,5 @@ git push origin gh-pages
 ```
 ### 15. push to the origin develop branch
 ```
- git push origin deveiop
+ git push origin develop
 ```
