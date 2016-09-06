@@ -1,0 +1,423 @@
+
+.dorry_brand {
+    background: -webkit-linear-gradient(left, #74E8FF , #009DD5);
+    background-size: 100% 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height:48em;
+}
+.wave_div {
+    background: url(../images/bolang.png);
+    margin-top: 6.3%;
+    width: 100%;
+    height:146px;
+}
+@media(max-width:1800px) {
+    .wave_div {
+        background: url(../images/bolang.png);
+        margin-top: 11.3%;
+        width: 100%;
+        height:146px;
+    }
+}
+@media(max-width:880px) {
+    .wave_div {
+        background: url(../images/bolang.png);
+        margin-top: 3.3%;
+        width: 100%;
+        height:146px;
+    }
+}
+@media(max-width:650px) {
+    .wave_div {
+        background: url(../images/bolang.png);
+        margin-top: -14.7%;
+        width: 100%;
+        height:146px;
+    }
+}
+@media(max-width:540px) {
+    .wave_div {
+        background: url(../images/bolang.png);
+        margin-top: 33.3%;
+        width: 100%;
+        height:146px;
+    }
+}
+@media(max-width:320px) {
+    .wave_div {
+        background: url(../images/bolang.png);
+        margin-top: 0.3%;
+        width: 100%;
+        height:146px;
+    }
+}
+#nav-background
+{
+    background: url(../images/top.png);
+    height: 70px;
+    box-shadow: -10px 10px 21px rgba(36, 46, 81, 0.3);
+}
+
+.log_img {
+    margin-left: 6%;
+    top: 8px;
+    position: relative;
+}
+@media(max-width:540px) {
+    .log_img {
+        width:15%;
+        margin-top:1%;
+        margin-left:6%;
+    }
+}
+
+#dorry-menu {
+    margin-top: 40px;
+}
+.groupimg {
+    margin-left:20%;
+}
+
+.blogtext
+{
+    color: #fff;
+    font-size: 163%;
+    margin-left: 70%;
+    top: 11px;
+    position: relative;
+}
+@media (max-width:540px) {
+    .blogtext
+    {
+        color: #fff;
+        font-size: 140%;
+        margin-left: 47%;
+    }
+}
+
+.joinustext
+{
+    color: #fff;
+    font-size: 163%;
+    margin-left: 4%;
+    top: 11px;
+    position: relative;
+}
+@media (max-width:540px) {
+    .joinustext
+    {
+        color: #fff;
+        font-size: 140%;
+        margin-left: 47%;
+    }
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+
+}
+.title1 {
+    color: white;
+    font-size:50px;
+}
+@media (max-width:540px) {
+    .title1 {
+        color: white;
+        font-size:25px;
+    }
+}
+.lead {
+    color:white;
+    font-size:25px;
+    margin-top: 2%;
+}
+@media (max-width:540px) {
+    .lead {
+           font-size:18px;
+    }
+}
+
+#Second_Part {
+    background: url(../images/features/feature_bg.png);
+    background-size:100% 101%;
+}
+
+.Constructure_title {
+    text-align: center;
+    margin-bottom: -4%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 350%;
+}
+@media(max-width:540px) {
+    .Constructure_title {
+         text-align: center;
+        margin-bottom: 5%;
+        margin-top: 47px;
+        font-weight: bold;
+        font-size: 210%;
+    }
+}
+
+.dorry-title {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 350%;
+}
+@media (max-width:540px) {
+    .dorry-title {
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 47px;
+        font-weight: bold;
+        font-size: 210%;
+    }
+}
+
+.dorry-title-Feature {
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: -1%;
+    font-weight: bold;
+    font-size: 350%;
+}
+@media (max-width:540px) {
+    .dorry-title-Feature {
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 47px;
+        font-weight: bold;
+        font-size: 210%;
+    }
+}
+
+.dorry_feature_text_color {
+    color: white;
+}
+
+.feature_top {
+    width: 77%;
+}
+
+@media (max-width: 540px) {
+    .Fectures_features_position {
+        margin-right: 0%;
+        margin-left: -81%;
+        margin-bottom: 2%;
+    }
+}
+
+.dorry_feature_row_margin {
+    margin-bottom: 4%;
+}
+
+.dorry_feature_text_margin {
+    margin-top: 10px;
+    margin-bottom:4%;
+}
+@media (max-width:540px) {
+    .dorry_feature_text_margin {
+        font-weight: bold;
+        font-size: 110%;
+    }
+}
+
+
+.dorry_construction_picture_div {
+    text-align: center;
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.dorry_construction_picture{
+    width: 80%;
+}
+
+#technology {
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: url(../images/technology/technology_bg.png);
+    background-size:100% 100%;
+
+}
+
+.dorry_technology_picture_div {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 11%;
+}
+
+.dorry_technology_picture{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+@media (max-width:540px) {
+    .dorry_technology_picture {
+        margin-top: 46%;
+        margin-bottom: 38%;
+        margin-left: 3%;
+        width: 218%;
+    }
+}
+
+.functionality_left_margin {
+    margin-left: 9%;
+    width: 41%;
+}
+@media (max-width:540px) {
+    .functionality_left_margin {
+        margin-left: -1%;
+        width: 88%;
+    }
+}
+
+.dorry-tech-col{
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+#address {
+    text-align: center;
+    color: white;
+    background-color:#232F53;
+    background-size:100% 100%;
+}
+
+@media (max-width:540px) {
+.third_heading_font {
+      margin-top: 0;
+      margin-bottom: 5px;
+      font-size:110%;
+      font-weight:bold;
+    }
+}
+
+@media (max-width:540px) {
+    .contact_margin {
+        margin-bottom:16%;
+        margin-top:8%;
+ }
+}
+
+.Functionalities_features_position {
+    margin-bottom:2%;
+    margin-left: 10%;
+    margin-right: 12%;
+}
+@media (max-width:540px) {
+    .Functionalities_features_position {
+        margin-right:-5%;
+        margin-left:-4%;
+        margin-bottom:2%;
+    }
+}
+
+@media (max-width:540px) {
+    .SSO_position {
+        margin-left:-4%;
+        width:98%;
+    }
+}
+
+@media (max-width:540px) {
+    .Update_position {
+        width: 100%;
+        margin-left: -4%;
+    }
+}
+
+.feature_bottom{
+    margin-bottom: 12%;
+}
+
+.Update_position1 {
+    width:94%;
+    margin-left: -4%;
+}
+@media (max-width:540px) {
+    .Update_position1 {
+        width: 155%;
+        margin-left: -31%;
+    }
+}
+
+@media (max-width:540px) {
+    .functionality_bottom {
+        margin-bottom: 5%;
+        margin-left: 7%;
+    }
+}
+
+.SSO_left {
+    margin-left:10%;
+}
+
+.dorry_address_picture_div {
+    margin-bottom: 5%;
+    width:23%;
+}
+
+@media (max-width:540px) {
+    .content_font {
+        font-size:90%;
+        margin-bottom:12%;
+    }
+}
+
+.img_top {
+    margin-top:15%;
+}
+@media (max-width:540px) {
+    .img_top {
+        margin-top: -15%;
+    }
+}
+
+@media (max-width:540px) {
+    .img_size {
+        width: 100px;
+        margin-top: 7%;
+    }
+}
+
+.dorry_address_bottom {
+    margin-bottom: 8%;
+}
+@media (max-width:540px) {
+    .dorry_address_bottom {
+        margin-bottom: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+.dorry_copyright_margin {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.dorry_copyright{
+    background-color:#182242;
+    text-align: center;
+    color: white;
+    background-size: 100% 100%;
+}
+
+.dorry-address-title{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.job_color {
+    color:white;
+}
+
+
+a:link {color: #FFF}
+a:hover {color: #FFF;}
