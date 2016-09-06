@@ -30,7 +30,7 @@ If you changed the css and images... , you need to add and commit.
 ```
 After you modify the changes, you need to commit the product to the develop branch.
 ```
- git add pruduct
+ git add product
  git commit -m "add product"
 ```
 ## test branch
