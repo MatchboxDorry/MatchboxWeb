@@ -7,6 +7,11 @@
     height: 62px;
 }
 
+.header-container {
+    background-color: #253035;
+    height: 62px;
+}
+
 .mdl-layout__header-row {
     padding: 0 16px;
 }
