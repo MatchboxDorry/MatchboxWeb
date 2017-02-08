@@ -1,0 +1,180 @@
+<html>
+  <head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <!-- bootstrap design part -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- material design part -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/count.css">
+    <script defer src="assets/js/count.js"></script>
+
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div id="overlay" class="overlay"></div>
+
+    <div class="mdl-layout__header header-container">
+      <div class="mdl-layout__header-row">
+        <img src="./assets/img/logo.svg">
+        <div class="head-logo">
+          DORRY
+        </div>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="/">HOME</a>
+          <a class="mdl-navigation__link" href="https://matchboxdorry.gitbooks.io/matchboxblog/content/">BLOG</a>
+          <a class="mdl-navigation__link" href="/joinus.html">JOIN US</a>
+        </nav>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="countdown-container">
+        <p class="countdown-title">DORRY OS IS COMING SOON</p>
+        <p class="countdown-desc">Dorry is a professional enterprise platform, running on ARM and continually delivering secure<br>enterprise services based on the leading technology of virtualization.
+        </p>
+        <div class="countdown-time-container">
+          <p class="countdown-time-days">X</p>
+        </div>
+        <div class="countdown-midline"></div>
+        <div class="countdown-time-unit">Days</div>
+        <div class="download-button">
+          <span class="download">DOWNLOAD</span><br>
+          <span class="version">v0.2.1</span>
+        </div>
+        <!-- <div class="version-container">
+          <small>v0.2.1 | 4.3G</small>
+        </div> -->
+      </div>
+
+      <!-- <div class="demovedio-container">
+        <img id="loadVideo" class="loadVideo" src="./assets/img/demo.png">
+        <video id="videoplayer" preload='metadata' controls>
+          <source src="http://www.html5videoplayer.net/videos/toystory.mp4" type="video/mp4">
+          Video not supported.
+        </video>
+      </div> -->
+
+      <div class="demovedio-container">
+        <!-- <video id="videoplayer" preload='metadata' controls>
+          <source src="http://www.html5videoplayer.net/videos/toystory.mp4" type="video/mp4">
+          Video not supported.
+        </video> -->
+
+        <video style="width:960px;" id="videoplayer" preload='metadata' controls>
+          <source src="assets/dorry.mp4" type="video/mp4">
+          Video not supported.
+        </video>
+      </div>
+
+      <div class="product-info-container">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="./assets/img/b&r.svg">
+            <p class="product-title">
+              Backup & Restore
+            </p>
+            <p class="product-desc">
+              Providing backup and<br>restore for application.
+            </p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="./assets/img/2U.svg">
+            <p class="product-title">
+              Updata & Upgrade
+            </p>
+            <p class="product-desc">
+              Providing automatic update<br>and upgrade.
+            </p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="./assets/img/sso.svg">
+            <p class="product-title">
+              SSO
+            </p>
+            <p class="product-desc">
+              Providing Single-Sign-On access<br>to enterprise services.
+            </p>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col">
+            <img src="./assets/img/management.svg">
+            <p class="product-title">
+              Management
+            </p>
+            <p class="product-desc">
+              Providing friendly UX to<br>manipulate enterprise services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>
+      Copyright © 2016 Matchbox
+    </p>
+  </div>
+  <script>
+    var end = new Date('02/19/2017 10:1 AM');
+
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
+
+    function showRemaining() {
+      var now = new Date();
+      var distance = end - now;
+      if (distance < 0) {
+        clearInterval(timer);
+        $(".countdown-time-days").html('X');
+        return;
+      }
+      var days = Math.floor(distance / _day);
+      var hours = Math.floor((distance % _day) / _hour);
+      var minutes = Math.floor((distance % _hour) / _minute);
+      var seconds = Math.floor((distance % _minute) / _second);
+
+      $(".countdown-time-days").html(days);
+    }
+
+    timer = setInterval(showRemaining, 1000);
+
+    //video play part
+    $("#loadVideo").click(function () {
+      $(".video-container").show();
+      $("video").each(function () {
+        this.play();
+        this.currentTime = 0;
+      });
+      $(".overlay").show();
+      $('body').addClass('stop-scrolling')
+    });
+
+    $(".overlay").click(function () {
+      $("video").each(function () {
+        this.pause();
+        this.currentTime = 0;
+      });
+      $(".video-container").hide();
+      $(".overlay").hide();
+    });
+  </script>
+</body>
+</html>
