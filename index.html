@@ -38,7 +38,7 @@
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="/">HOME</a>
-          <a class="mdl-navigation__link" href="https://matchboxdorry.gitbooks.io/matchboxblog/content/">BLOG</a>
+          <a class="mdl-navigation__link" target="_blank" href="https://matchboxdorry.gitbooks.io/matchboxblog/content/">BLOG</a>
           <a class="mdl-navigation__link" href="/joinus.html">JOIN US</a>
         </nav>
       </div>
@@ -54,8 +54,8 @@
         <div class="countdown-midline"></div>
         <div class="countdown-time-unit">Days</div>
         <div class="download-button">
-          <span class="download">DOWNLOAD</span><br>
-          <span class="version">v0.2.1</span>
+          <div class="download">DOWNLOAD</div>
+          <div class="version">v0.2.1</div>
         </div>
         <!-- <div class="version-container">
           <small>v0.2.1 | 4.3G</small>
@@ -130,7 +130,7 @@
     </p>
   </div>
   <script>
-    var end = new Date('02/19/2017 10:1 AM');
+    var end = new Date('03/31/2017 10:1 AM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -156,24 +156,26 @@
 
     timer = setInterval(showRemaining, 1000);
 
-    //video play part
-    $("#loadVideo").click(function () {
-      $(".video-container").show();
-      $("video").each(function () {
-        this.play();
-        this.currentTime = 0;
-      });
-      $(".overlay").show();
-      $('body').addClass('stop-scrolling')
-    });
+    // //video play part $("#loadVideo").click(function () {   $(".video-container").show();   $("video").each(function () {     this.play();     this.currentTime = 0;   });   $(".overlay").show();   $('body').addClass('stop-scrolling') });
+    //
+    // $(".overlay").click(function () {   $("video").each(function () {     this.pause();     this.currentTime = 0;   });   $(".video-container").hide();   $(".overlay").hide(); }); video auto play trigger
+    $(function () {
+      var scrolltag = 0;
+      $(window).scroll(function (e) {
 
-    $(".overlay").click(function () {
-      $("video").each(function () {
-        this.pause();
-        this.currentTime = 0;
+        var scrollAmount = $('body').scrollTop();
+        console.log(scrollAmount);
+
+        if (scrollAmount >= 450 && scrollAmount <= 1500) {
+          if (scrolltag == 0) {
+            $("video").each(function () {
+              this.play();
+              this.currentTime = 0;
+            });
+            scrolltag = 1;
+          }
+        }
       });
-      $(".video-container").hide();
-      $(".overlay").hide();
     });
   </script>
 </body>
