@@ -3,7 +3,8 @@ li {
 }
 
 .upper-part {
-    height: 774px;
+    /*height: 774px;*/
+    padding-bottom: 152px;
     background-color: #37474f;
 }
 
@@ -16,10 +17,12 @@ li {
     font-size: 48px;
     font-weight: bold;
     color: #ffffff;
+    line-height: 1em;
 }
 
 .mdl-cell--5-col img {
     margin-top: 74px;
+    width: 100%;
 }
 
 .upper-content {
