@@ -9,7 +9,7 @@
 }
 
 .countdown-title {
-    padding-top: 87px;
+    padding-top: 227px;
     font-size: 60px;
     font-weight: 500;
 }
@@ -57,6 +57,10 @@
     margin-top: -30px;
 }
 
+.download-a:hover{
+    text-decoration: none;
+}
+
 .download-button {
     margin-left: auto;
     margin-right: auto;
@@ -64,24 +68,26 @@
     width: 280px;
     height: 64px;
     border-radius: 2px;
-    background-color: #467612;
-    padding-top: 16px;
+    background-color: #239B56;
+    padding-top: 22px;
 }
 
 .download-button:hover {
-    cursor: not-allowed;
+    cursor: pointer;
+    background-color: #28B463;
 }
 
 .download-button .download {
     /*line-height: 64px;*/
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
-    color: #aaa;
+    color: #eee;
 }
 
 .download-button .version {
+    line-height: 24px;
     padding-top: 6px;
-    color: #aaa;
+    color: #eee;
 }
 /*demovedio container*/
 .demovedio-container {
