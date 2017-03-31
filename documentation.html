@@ -53,148 +53,29 @@
     <div class="content-container">
         <div class="installation-container">
             <div class="doc-h1">Install Dorry Platform</div>
-            <div class="installation-version"> Ubuntu 16.04 </div>
+            <div class="doc-version"> Ubuntu 16.04 </div>
             <div class="code-container">
                 <p>curl -sSL http://dorry.io/script/install.sh | sudo bash</p>
             </div>
-            <div class="installation-desc">
-                <p><b>Dorry Platform</b> now only supported on Ubuntu 16.04. Read next documentation for more details.</p>
+            <div class="doc-desc">
+                <p><b>Dorry Platform</b> now is only supported on Ubuntu 16.04.</p>
             </div>
         </div>
-
-        <!-- doc -->
-        <div class="doc-container">
-            <div>
-                <h3 id="deploydorryplatform">Install dorry platform</h3>
-
-                <pre><code class="bash language-bash">$ curl -sSL http://dorry.io/script/install.sh | sudo bash
-</code></pre>
-
-                <h6 id="deployplatformoptions">Install Platform Options</h6>
-
-                <p>During installing dorry platform, you need to configure the following attributes:</p>
-
-                <ul>
-                    <li>
-                        <p><strong>host name</strong>, it is your computer hostname by default. Default value is sufficient.</p>
-                    </li>
-
-                    <li>
-                        <p><strong>host ip</strong>, this is the ip address of the computer where you deploy dorry platform
-                            on. If you don't know your ip, run <code>nslookup [your hostname]</code>.</p>
-                    </li>
-
-                    <li>
-                        <p><strong>Market Url</strong>, it is the market you choose to connect. Enter http://dorry.market. This
-                            is Dorry official market address.</p>
-                    </li>
-
-                    <li>
-                        <p><strong>Version of Dorry Platform Backend</strong>, version of image <code>dorrydoufu/dorry-platform-backend</code>,
-                            <em>latest</em> by default. View all versions of <a href="https://hub.docker.com/r/dorrydoufu/dorry-platform-backend/tags/">dorrydoufu/dorry-platform-backend</a>.</p>
-                    </li>
-
-                    <li>
-                        <p><strong>Version of Dorry Platform Frontend</strong>, version of image <code>dorrydoufu/dorry-platform-frontend</code>,
-                            <em>latest</em> by default. View all versions of <a href="https://hub.docker.com/r/dorrydoufu/dorry-platform-frontend/tags/">dorrydoufu/dorry-platform-frontend</a>.</p>
-                    </li>
-
-                    <li>
-                        <p><strong>Username</strong>, username of dorry platform. </p>
-                    </li>
-
-                    <li>
-                        <p><strong>Password</strong>, password of dorry platform.</p>
-                    </li>
-                </ul>
-
-                <h5 id="test-1">Test</h5>
-
-                <p>After script has been finished, open browser with url <code>http://[yourhostname]:4200</code> and login dorry
-                    platform with your account.</p>
-
-                <hr/>
-
-                <h3>Dorry Platform Tool Suite</h3>
-
-                <p>You can also install Dorry Platform by the tool suite. Using the tool suite you can also uninstall Dorry Platform.</p>
-
-                <h6>Download</h6>
-
-                <pre><code class="bash language-bash">$ git clone https://bitbucket.org/MatchboxDorry/dorry-installation.git
-$ cd dorry-installation/
-</code></pre>
-
-                <h4 id="deploydorryplatform">Install Dorry Platform By Tool Suite</h4>
-
-                <p>1.Prepare</p>
-
-                <pre><code class="bash language-bash">$ sudo apt-get install python3-pip
-$ sudo pip3 install pymongo
-</code></pre>
-
-                <p>2.Install kubernetes</p>
-
-                <pre><code class="bash language-bash">$ sudo ./install_kubernetes.py
-</code></pre>
-
-                <h5 id="test">Test</h5>
-
-                <p>After script has been finished, run <code>./test_install_kubernetes.sh</code>. If there is version info,
-                    kubernetes has been installed successfully.</p>
-
-                <p>3.Deploy dorry platform</p>
-
-                <pre><code class="bash language-bash">$ sudo ./install_platform.py
-</code></pre>
-
-                <p>During installing Dorry Platform, you also need to reference to the <a href="#deployplatformoptions">options</a>. Test is the same as intalling by command.</p>
-
-
-                <h4 id="uninstalldorryplatform">Uninstall Dorry Platform By Tool Suite</h4>
-
-                <p>Perform the following steps:</p>
-
-                <p>1.Uninstall kubernetes, the kubernetes images and containers</p>
-
-                <pre><code class="bash language-bash">$ sudo ./uninstall_kubernetes.py
-</code></pre>
-
-                <h5 id="test-2">Test</h5>
-
-                <p>After script has been finished, run <code>./test_uninstall_kubernetes.sh</code>. If there are no images,
-                    kubernetes has been uninstalled successfully.</p>
-
-                <p>2.Uninstall the platform containers and images</p>
-
-                <pre><code class="bash language-bash">$ sudo ./uninstall_platform.py
-</code></pre>
-
-                <h6 id="uninstallplatformoptions">Uninstall Platform Options</h6>
-
-                <ul>
-                    <li>
-                        <p><strong>dorry-platform-backend version</strong>, this is version of <code>dorrydoufu/dorry-platform-backend</code>.</p>
-                    </li>
-
-                    <li>
-                        <p><strong>dorry-platform-frontend version</strong>, this is version of <code>dorrydoufu/dorry-platform-frontend</code>.</p>
-                    </li>
-                </ul>
-
-                <h5 id="test-3">Test</h5>
-
-                <p>After script has been finished, run <code>./test_uninstall_platform.sh</code>. If there are no containers,
-                    platform has been uninstalled successfully.</p>
+        <div class="uninstallation-container">
+            <div class="doc-h1">Uninstall Dorry Platform</div>
+            <div class="doc-version"> Ubuntu 16.04 </div>
+            <div class="code-container">
+                <p>curl -sSL http://dorry.io/script/uninstall.sh | sudo bash</p>
             </div>
-            <div>
+            <div class="doc-desc">
             </div>
         </div>
-        <div class="footer">
-            <p>
-                Copyright © 2016 Matchbox
-            </p>
-        </div>
+    </div>
+    <div class="footer">
+      <p>
+        Copyright © 2016 Matchbox
+      </p>
+    </div>
 </body>
 
 </html>
